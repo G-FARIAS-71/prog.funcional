@@ -4,7 +4,7 @@ Anotações para ajudar no meu aprendizado em programação funcional com Clojur
 
 > Fonte do meu aprendizado: [Curso](https://www.udemy.com/course/clojure-introducao-a-programacao-funcional) na plataforma [Udemy](https://www.udemy.com/) oferecido pelo instrutor [Marcio Frayze David](https://www.udemy.com/user/marcio-frayze-david/)
 
-<hr>
+<hr><hr>
 
 ## <div align="center">INTRODUÇÃO</div>
 
@@ -23,7 +23,7 @@ Anotações para ajudar no meu aprendizado em programação funcional com Clojur
 
 ### Clojure pertence ao dialeto do Lisp
 
-<hr>
+<hr><hr>
 
 ## <div align="center">PRIMEIROS CÓDIGOS</div>
 
@@ -44,25 +44,35 @@ Somando 1 ao número 3 (1 + 3)
 
 Retorno: 4
 
+<hr>
+
 Somando 1 ao número 3 somado a -2 somado a 7 (1 + 3 - 2 + 7)
 > (+ 1 3 -2 7)
 
 Retorno: 9
+
+<hr>
 
 Subtraindo 3 ao número 5 (5 - 3)
 > (- 5 3)
 
 Retorno: 2
 
+<hr>
+
 Multiplicando os números 5 e 3 (5 x 3)
 > (* 5 3)
 
 Retorno: 15
 
+<hr>
+
 Dividindo 15 por 3 (15 ÷ 3)
 > (/ 15 3)
 
 Retorno: 5
+
+<hr>
 
 Agora teste a seguinte linha para ver no que vai dar
 > (* 2 5 -2)
@@ -82,15 +92,21 @@ Contando o número de elementos em um vetor (lista contendo valores armazenados 
 
 Retorno: 4
 
+<hr>
+
 Adiciondo um valor ao final de um vetor preexistente (retorna o novo vetor)
 > (conj [1 2 3 4] 5)
 
 Retorno: [1 2 3 4 5]
 
+<hr>
+
 Removendo o último elemento de um vetor preexistente 
 > (pop [1 2 3 4 5])
 
 Retorno: [1 2 3 4]
+
+<hr>
 
 Checando o último elemento de um vetor preexistente
 > (peek [1 2 3 4 5])
@@ -107,6 +123,6 @@ Retorno: nil (valor nulo da Clojure), pois o println apenas printa na tela e nã
 
 Saída (valor printado): 2
 
-<hr>
+<hr><hr>
 
 ## <div align="center">CRIANDO NOSSAS PRÓPRIAS FUNÇÕES</div>
