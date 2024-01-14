@@ -85,7 +85,7 @@ Agora teste a seguinte linha para ver no que vai dar
    <p>-20</p>
 </details>
 
-### Mnaipulação de vetores
+### Manipulação de vetores
 
 Contando o número de elementos em um vetor (lista contendo valores armazenados nela)
 > (count [1 2 3 4])
