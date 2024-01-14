@@ -35,47 +35,47 @@ Para sair do REPL, basta digitar o comando "(System/exit 0)" ou reiniciar o term
 
 Printando "Olá, mundo!" no terminal
 
-```clojure (println "Olá, Mundo!")```
+```(println "Olá, Mundo!")```
 
 ### Operações aritméticas
 
 Somando 1 ao número 3 (1 + 3)
-> (+ 1 3)
+```(+ 1 3)```
 
 Retorno: 4
 
 <hr>
 
 Somando 1 ao número 3 somado a -2 somado a 7 (1 + 3 - 2 + 7)
-> (+ 1 3 -2 7)
+```(+ 1 3 -2 7)```
 
 Retorno: 9
 
 <hr>
 
 Subtraindo 3 ao número 5 (5 - 3)
-> (- 5 3)
+```(- 5 3)```
 
 Retorno: 2
 
 <hr>
 
 Multiplicando os números 5 e 3 (5 x 3)
-> (* 5 3)
+```(* 5 3)```
 
 Retorno: 15
 
 <hr>
 
 Dividindo 15 por 3 (15 ÷ 3)
-> (/ 15 3)
+```(/ 15 3)```
 
 Retorno: 5
 
 <hr>
 
 Agora teste a seguinte linha para ver no que vai dar
-> (* 2 5 -2)
+```(* 2 5 -2)```
 
 <details>
 
@@ -88,34 +88,34 @@ Agora teste a seguinte linha para ver no que vai dar
 ### Manipulação de vetores
 
 Contando o número de elementos em um vetor (lista contendo valores armazenados nela)
-> (count [1 2 3 4])
+```(count [1 2 3 4])```
 
 Retorno: 4
 
 <hr>
 
 Adiciondo um valor ao final de um vetor preexistente (retorna o novo vetor)
-> (conj [1 2 3 4] 5)
+```(conj [1 2 3 4] 5)```
 
 Retorno: [1 2 3 4 5]
 
 <hr>
 
 Removendo o último elemento de um vetor preexistente 
-> (pop [1 2 3 4 5])
+```(pop [1 2 3 4 5])```
 
 Retorno: [1 2 3 4]
 
 <hr>
 
 Checando o último elemento de um vetor preexistente
-> (peek [1 2 3 4 5])
+```(peek [1 2 3 4 5])```
 
 Retorno: 5
 
 ### EXECUÇÃO DE MÚLTIPLAS FUNÇÕES EM UMA LINHA SÓ
 
-> (println (+ 2 -1 peek (conj [1 2 3 4 5] 1)))
+```(println (+ 2 -1 peek (conj [1 2 3 4 5] 1)))```
 
 Sempre visualize o código da parte mais interna (conj) para a mais externa (println)
 
@@ -133,13 +133,13 @@ Ao criar nossas funções, atribuiremos um nome a uma série de comandos a serem
 
 #### Atribuição/definição do nome
 
-> (defn imprimir-ola [] (println "Olá, Mundo!"))
+```(defn imprimir-ola [] (println "Olá, Mundo!"))```
 
 Retorno: nil
 
 #### Chamada da função
 
-> (imprimir-ola)
+```(imprimir-ola)```
 
 Retorno: nil
 Saída: "Olá, Mundo!"
