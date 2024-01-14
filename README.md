@@ -35,7 +35,7 @@ Para sair do REPL, basta digitar o comando "(System/exit 0)" ou reiniciar o term
 
 Printando "Olá, mundo!" no terminal
 
-> (println "Olá, Mundo!")
+```clojure (println "Olá, Mundo!")```
 
 ### Operações aritméticas
 
@@ -126,3 +126,29 @@ Saída (valor printado): 2
 <hr><hr>
 
 ## <div align="center">CRIANDO NOSSAS PRÓPRIAS FUNÇÕES</div>
+
+Ao criar nossas funções, atribuiremos um nome a uma série de comandos a serem executados. Desse modo, ao desejarmos que esse bloco de comandos seja executado, nós chamaremos o nome que foi atribuído ao bloco. Além disso, toda função tem um retorno (mesmo que este seja nulo) 
+
+### Imprimir "Olá, Mundo!"
+
+#### Atribuição/definição do nome
+
+> (defn imprimir-ola [] (println "Olá, Mundo!"))
+
+Retorno: nil
+
+#### Chamada da função
+
+> (imprimir-ola)
+
+Retorno: nil
+Saída: "Olá, Mundo!"
+
+<hr>
+
+### Parabenizar alguem pelo aniversário
+
+### Definição
+
+> (defn
+
