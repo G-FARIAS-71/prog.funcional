@@ -34,32 +34,39 @@ Para sair do REPL, basta digitar o comando "(System/exit 0)" ou reiniciar o term
 ### Olá, Mundo!
 
 Printando "Olá, mundo!" no terminal
+
 > (println "Olá, Mundo!")
 
 ### Operações aritméticas
 
 Somando 1 ao número 3 (1 + 3)
 > (+ 1 3)
-> Retorno: 4
+
+Retorno: 4
 
 Somando 1 ao número 3 somado a -2 somado a 7 (1 + 3 - 2 + 7)
 > (+ 1 3 -2 7)
+
 Retorno: 9
 
 Subtraindo 3 ao número 5 (5 - 3)
 > (- 5 3)
+
 Retorno: 2
 
 Multiplicando os números 5 e 3 (5 x 3)
 > (* 5 3)
+
 Retorno: 15
 
 Dividindo 15 por 3 (15 ÷ 3)
 > (/ 15 3)
+
 Retorno: 5
 
 Agora teste a seguinte linha para ver no que vai dar
 > (* 2 5 -2)
+
 <details>
 
    <summary style="color: lightgray">
@@ -72,18 +79,22 @@ Agora teste a seguinte linha para ver no que vai dar
 
 Contando o número de elementos em um vetor (lista contendo valores armazenados nela)
 > (count [1 2 3 4])
+
 Retorno: 4
 
 Adiciondo um valor ao final de um vetor preexistente (retorna o novo vetor)
 > (conj [1 2 3 4] 5)
+
 Retorno: [1 2 3 4 5]
 
 Removendo o último elemento de um vetor preexistente 
 > (pop [1 2 3 4 5])
+
 Retorno: [1 2 3 4]
 
 Checando o último elemento de um vetor preexistente
 > (peek [1 2 3 4 5])
+
 Retorno: 5
 
 ### EXECUÇÃO DE MÚLTIPLAS FUNÇÕES EM UMA LINHA SÓ
