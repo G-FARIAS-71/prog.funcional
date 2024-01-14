@@ -47,5 +47,5 @@ Multiplicando os números 5 e 3 (5 x 3 = 15)
 Dividindo 15 por 3 (15 ÷ 3 = 5)
 > (/ 15 3)
 
-Agora teste a seguinte linha para ver no que vai dar (não vai deletar o sistema operacional, juro...)
+Agora teste a seguinte linha para ver no que vai dar
 > (x 2 5 -2)
