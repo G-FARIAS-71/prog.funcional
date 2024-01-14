@@ -160,5 +160,11 @@ Saída: "Olá, Mundo!"
 
 ### Definição
 
-> (defn
+```(defn parabenizar [nome-pessoa] (println (str "Feliz Aniversário, " nome "!")))```
 
+Retorno: nil
+
+```(parabenizar "Guilherme")```
+
+Retorno: nil
+Saída: Feliz Aniversário, Guilherme!
