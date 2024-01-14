@@ -4,7 +4,7 @@ Anotações para ajudar no meu aprendizado em programação funcional com Clojur
 
 > Fonte do meu aprendizado: [Curso](https://www.udemy.com/course/clojure-introducao-a-programacao-funcional) na plataforma [Udemy](https://www.udemy.com/) oferecido pelo instrutor [Marcio Frayze David](https://www.udemy.com/user/marcio-frayze-david/)
 
-<hr><hr>
+<hr><hr><hr>
 
 ## <div align="center">INTRODUÇÃO</div>
 
@@ -23,7 +23,7 @@ Anotações para ajudar no meu aprendizado em programação funcional com Clojur
 
 ### Clojure pertence ao dialeto do Lisp
 
-<hr><hr>
+<hr><hr><hr>
 
 ## <div align="center">PRIMEIROS CÓDIGOS</div>
 
@@ -31,11 +31,15 @@ Após a instalação e a configuração da Clojure na máquina, digite o comando
 
 Para sair do REPL, basta digitar o comando "(System/exit 0)" ou reiniciar o terminal
 
+<hr><hr>
+
 ### Olá, Mundo!
 
 Printando "Olá, mundo!" no terminal
 
 ```(println "Olá, Mundo!")```
+
+<hr>
 
 ### Operações aritméticas
 
@@ -91,6 +95,8 @@ Agora teste a seguinte linha para ver no que vai dar
    <p>-20</p>
 </details>
 
+<hr><hr>
+
 ### Manipulação de vetores
 
 Contando o número de elementos em um vetor (lista contendo valores armazenados nela)
@@ -123,6 +129,8 @@ Checando o último elemento de um vetor preexistente
 
 Retorno: 5
 
+<hr><hr>
+
 ### EXECUÇÃO DE MÚLTIPLAS FUNÇÕES EM UMA LINHA SÓ
 
 ```(println (+ 2 -1 peek (conj [1 2 3 4 5] 1)))```
@@ -133,19 +141,25 @@ Retorno: nil (valor nulo da Clojure), pois o println apenas printa na tela e nã
 
 Saída (valor printado): 2
 
-<hr><hr>
+<hr><hr><hr>
 
 ## <div align="center">CRIANDO NOSSAS PRÓPRIAS FUNÇÕES</div>
 
 Ao criar nossas funções, atribuiremos um nome a uma série de comandos a serem executados. Desse modo, ao desejarmos que esse bloco de comandos seja executado, nós chamaremos o nome que foi atribuído ao bloco. Além disso, toda função tem um retorno (mesmo que este seja nulo) 
 
+<hr><hr>
+
 ### Imprimir "Olá, Mundo!"
+
+<hr>
 
 #### Atribuição/definição do nome
 
 ```(defn imprimir-ola [] (println "Olá, Mundo!"))```
 
 Retorno: nil
+
+<hr>
 
 #### Chamada da função
 
@@ -154,15 +168,21 @@ Retorno: nil
 Retorno: nil
 Saída: "Olá, Mundo!"
 
-<hr>
+<hr><hr>
 
 ### Parabenizar alguem pelo aniversário
+
+<hr>
 
 ### Definição
 
 ```(defn parabenizar [nome-pessoa] (println (str "Feliz Aniversário, " nome "!")))```
 
 Retorno: nil
+
+<hr>
+
+### Chamada
 
 ```(parabenizar "Guilherme")```
 
